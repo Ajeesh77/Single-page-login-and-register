@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravO JooY</title>
+  <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQkFDAtUo4aoAEjaSdmHK2FCf5RdVKw_xc5q-yCC5RFJnFEoUoL-hLjwUIeLTOilLAPDs&usqp=CAU" type="image/x-icon">
+  <link rel="stylesheet" href="index.css">
+
+
+  <!-- fontawsome icon link -->
+  <script src="https://kit.fontawesome.com/aed9c6c1aa.js" crossorigin="anonymous"></script>
+
+  <!-- bootstrap link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body> 
+ <!-- dark and light mood -->
+<section>
+  <div class="container" id="moods">
+    <div class="row my-sm-2 my-md-5 px-4">
+      <div class="col form-check form-switch" >
+        <input class="form-check-input px-md-4 py-2 me-2" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+        <label class="form-check-label" id="checkboxName" for="flexSwitchCheckChecked">Bright Mood</label>
+      </div>
+    </div>
+      
+  </div> 
+</section>
+
+<!-- company log -->
+<section>
+  <div id="logoAndName">
+
+    <div class="text-center">
+      <img src="https://s.tmimgcdn.com/scr/1200x750/212900/spoon-and-fork-restaurant-logo_212966-original.png" id="companyLogo" alt="company logo">
+    </div>
+
+    <div class="text-center">
+      <h2>TravO JooY</h2>
+    </div>
+
+  </div>
+</section>
+
+<!--container-1 Register form and User validation -->
+<section>
+    <div class="container p-0 my-5 " id="sizing-container">
+
+      <form class="border border-0 border-dark p-3 needs-validation" id="formOne" >
+
+<div class="row g-3 justify-content-center ">
+
+  <!-- Name -->
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">First Name :</label>
+          <input type="text" class="form-control" id="validationTooltip01" placeholder="Full Name.. " value="" required>
+   
+        <div>
+          <small id="nameError"></small>
+        </div>
+        </div>
+
+
+  <!-- Password -->
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Password :</label>
+          <input type="password" class="form-control" id="validationTooltip02" placeholder="Must use one [!@#$%^&*()_]" value="" required>
+
+          <div>
+            <small id="passwordError"></small>
+          </div>
+        </div>
+</div>
+
+<div class="row g-3 mt-3 justify-content-center ">
+
+  <!-- E-mail -->
+        <div class="col-md-4 position-relative">
+          <label for="exampleInputEmail1" class="form-label">Email address :</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="......@gamil.com" aria-describedby="emailHelp">
+   
+        <div>
+          <small id="emailError"></small>
+        </div>
+        </div>
+
+
+  <!-- Phone Number -->
+        <div class="col-md-4 position-relative">
+          <label for="numberValidation" class="form-label">Phone Number :</label>
+          <input type="number"class="form-control" id="numberValidation" value="" placeholder="" required>
+
+          <div>
+            <small id="numberError"></small>
+          </div>
+        </div>
+</div>
+
+<div class="row  g-3 justify-content-center">
+ <!-- Gender -->
+        <div class="col-md-4 mt-5 position-relative d-flex">
+          <label for="exampleRadios1" class="form-label">Gender:</label>
+          <div class="form-check ms-2">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Male" checked>
+            <label class="form-check-label" for="exampleRadios1">Male</label>
+          </div>
+
+          <div class="form-check ms-2">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="Female">
+            <label class="form-check-label" for="exampleRadios2">Female</label>
+          </div>
+
+        </div>
+
+ <!--Occupation  -->
+        <div class="col-md-4 position-relative  mt-md-0 mt-md-5">
+
+            <label for="validationTooltip04" class="form-label">Occupation :</label>
+            <select class="form-select" id="validationTooltip04" required>
+              <option selected value="Student">Student</option>
+              <option selected value="Working">Working</option>
+              <option selected value="Others">Others</option>    
+            </select>
+        </div>
+</div>
+
+<div class="row g-3 mt-3  mt-md-2 justify-content-center">
+
+  <!--Date Picker  -->
+   <div class="col-md-4 position-relative">
+    <div class="form-group">
+      <label for="datePicker">Date Picker :</label>
+      <input type="date" class="form-control" id="datePicker" required>
+    </div>
+   </div>
+
+<!-- Time Picker -->
+   <div class="col-md-4 position-relative">
+    <div class="form-group">
+      <label for="timePicker">Time Picker :</label>
+      <input type="time" class="form-control" id="timePicker" required>
+    </div>
+   </div>
+
+</div>   
+
+
+
+<div class="text-center mt-3"><h6 id="rules">Read terms and condition</h6></div>
+<!-- bottons -->
+<div class=" d-flex justify-content-center my-3">
+
+  <div class="mx-1">
+    <button type="button" class="btn btn-primary" id="registerSubmit" >Register</button>
+  </div>
+
+  
+  <div class="mx-1">
+    <button type="button" value="loginPage" class="btn btn-primary" id="loginBtn" >Login</button>
+  </div>
+
+</div>
+      </form>
+    </div>
+</section>
+
+
+
+<!--container-2 login page validation -->
+
+<section>
+
+  <div class="container py-3 my-5" id="sizing-container2">
+
+<form class="border border-0 border-dark p-3" id="formTwo" >
+
+   <div class="row g-3 justify-content-center ">
+
+<!-- Name -->
+      <div class="col-md-4 position-relative">
+        <label for="userName" class="form-label">First Name :</label>
+        <input type="text" class="form-control" name="userName" id="userName" placeholder="Full Name.. " value="" required>
+ 
+      <div>
+        <small id="Error1"></small>
+      </div>
+      </div>
+
+
+<!-- Password -->
+      <div class="col-md-4 position-relative">
+        <label for="userPassword" class="form-label">Password :</label>
+        <input type="password" class="form-control" id="userPassword" placeholder="You used [ , or | ]" value="" required>
+
+        <div>
+          <small id="Error2"></small>
+        </div>
+      </div>
+</div>
+
+<div class="row g-3 mt-3 justify-content-center ">
+
+<!-- E-mail -->
+      <div class="col-md-4 position-relative">
+        <label for="userEmail" class="form-label">Email address :</label>
+        <input type="email" class="form-control" id="userEmail" placeholder="......@gamil.com" aria-describedby="emailHelp">
+ 
+      <div>
+        <small id="Error3"></small>
+      </div>
+      </div>
+
+
+<!-- Phone Number -->
+      <div class="col-md-4 position-relative">
+        <label for="userNumber" class="form-label">Phone Number :</label>
+        <input type="number"class="form-control" id="userNumber" value="" placeholder="" required>
+
+        <div>
+          <small id="Error4"></small>
+        </div>
+      </div>
+</div>
+
+
+<div class="text-center mt-3"><h6 id="rules">Read terms and condition</h6></div>
+<!-- bottons -->
+<div class=" d-flex justify-content-center my-3">
+
+  <div class="mx-1">
+    <button type="button" class="btn btn-primary" value="registerPage" id="registerPage" > &lt; Register</button>
+  </div>
+
+
+<div class="mx-1">
+  <button type="button" class="btn btn-primary" id="identifyAccount">Login</button>
+</div>
+
+</div>
+    </form>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- bootstrap link -->
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+  <!--owl OwlCarousel  -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

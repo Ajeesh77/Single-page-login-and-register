@@ -1,0 +1,142 @@
+/* Register form */
+#rules{
+    
+    text-decoration: underline royalblue;
+    cursor: pointer;
+}
+
+#companyLogo{
+    width: 10%;
+    margin-bottom: -2%;
+}
+/* form */
+
+
+#sizing-container{
+    background-image:url("https://i.pinimg.com/564x/58/90/29/589029572b642558e0630653216ca162.jpg") ;
+    font-weight: bold;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4%;
+    width: 100%;
+}
+
+
+/* error message name */
+#nameError{
+    color: red;
+}
+
+#passwordError{
+    color: red;
+}
+
+#emailError{
+    color: red;
+}
+
+
+#numberError{
+    color: red;
+}
+
+
+/* login form page*/
+
+
+#sizing-container2{
+    background-image:url("https://i.pinimg.com/564x/58/90/29/589029572b642558e0630653216ca162.jpg") ;
+    font-weight: bold;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4%;
+    width: 100%;
+}
+
+
+#Error1{
+    color: red;
+}
+
+#Error2{
+    color: red;
+}
+
+#Error3{
+    color: red;
+}
+
+
+#Error4{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#sizing-container2{
+    display:none ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sizingin conpany logo */
+@media (max-width:768px) {
+    #companyLogo{
+        width: 36%;
+        margin-bottom: -2%;
+    }
+
+}
+
+
+/* change the container size */
+@media (min-width: 768px){
+.container, .container-md, .container-sm {
+    max-width: 700px !important;
+}}
+
+
+
+
+
+
+
+
+
+
+
+
